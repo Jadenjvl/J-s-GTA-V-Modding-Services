@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA V Modding Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GTA V Modding Services</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to GTA V Modding Services</h2>
+        <p>We offer the best modding services for GTA V. Boost your account with exclusive mods.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Basic Mod Package</h3>
+            <p>Includes 50 million in-game money, RP boost, and modded outfits.</p>
+            <button onclick="purchaseService('Basic Mod Package')">Buy Now - $5</button>
+        </div>
+        <div class="service">
+            <h3>Premium Mod Package</h3>
+            <p>Includes 500 million in-game money, RP boost, exclusive items and cars, and modded outfits.</p>
+            <button onclick="purchaseService('Premium Mod Package')">Buy Now - $10</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 J's GTA V Modding Services</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
